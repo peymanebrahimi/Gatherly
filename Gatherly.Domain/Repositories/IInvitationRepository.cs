@@ -5,5 +5,5 @@ namespace Gatherly.Domain.Repositories;
 public interface IInvitationRepository
 {
     void Add(Invitation invitation);
-    Task<Invitation> GetByIdAsync(Guid id, CancellationToken cancellationToken);
+    //Task<Invitation> GetByIdAsync(Guid id, CancellationToken cancellationToken);
 }

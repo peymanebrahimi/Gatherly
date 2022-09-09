@@ -3,9 +3,9 @@ using Gatherly.Domain.ValueObjects;
 
 namespace Gatherly.Domain.Entities;
 
-public sealed class Member:Entity
+public sealed class Member : AggregateRoot
 {
-    public Member(Guid id, FirstName  firstName, string lastName, string email) 
+    public Member(Guid id, FirstName firstName, string lastName, string email)
         : base(id)
     {
         FirstName = firstName;
